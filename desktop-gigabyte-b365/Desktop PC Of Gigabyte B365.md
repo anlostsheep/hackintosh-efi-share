@@ -1,13 +1,15 @@
+[TOC]
+
 # Desktop PC Of Gigabyte B365
 
 ## List Of Device
 
-|     CPU      |        Intel i5-9500        |
-| :----------: | :-------------------------: |
+| CPU          | Intel i5-9500               |
+| :----------- | :-------------------------- |
 | Matherboard  | Gigabyte B365M Arous Elite  |
-|     SSD      |     WestData SN750 500G     |
+| SSD          | WestData SN750 500G         |
 | Graphic Card | DataLand Radeon RX5500XT 8G |
-| Network Card |     FV-T919(BCM94360CD)     |
+| Network Card | FV-T919(BCM94360CD)         |
 
 <img src="./about-this-computer.png" style="zoom:40%;" />
 
@@ -53,7 +55,21 @@
 
 <img src="./airdrop.png" alt="airdrop" style="zoom:40%;" />
 
+## Others Features
 
+- [x] Sleep and wake up
+
+  > I used `SSDT-GRPW.aml` to fix the wake up from sleep problem, it will shield the wakeup signal of keyboard and mouse, so you have to press the power button to wake up your hackintosh.
+  >
+  > If you don't like that, just disabled the `EFI/OC/ACPI/SSDT-GPRW.aml` and disabled the `Patch`, like this:
+  >
+  > <img src="./ssdt-gprw.png" alt="ssdt-gprw" style="zoom:50%;" />
+
+- [x] AppleWatch unlock the screen
+
+- [ ] Istat does't have the GPU RX5500XT temperature
+
+- [x] 
 
 ## EFI Guide
 
@@ -77,7 +93,5 @@
 
 ### [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
 
-- > I clean up the `Platforminfo` in the `EFI/OC/config.plist`, so you should generate your own `SMBIOS` info and copy-paste them into `EFI/OC/cofnig.plist`, like this :
-
-<img src="./platforminfo.png" style="zoom:40%;"/>
+- > I clean up the `Platforminfo` in the `EFI/OC/config.plist`, so you should generate your own `SMBIOS` info and copy-paste them into `EFI/OC/cofnig.plist`, like this : <img src="./platforminfo.png" style="zoom:40%;"/>
 
