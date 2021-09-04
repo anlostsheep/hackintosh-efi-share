@@ -2,11 +2,11 @@
 
 ## List Of Device
 
-|     CPU      |           i5-9500           |
+|     CPU      |        Intel i5-9500        |
 | :----------: | :-------------------------: |
 | Matherboard  | Gigabyte B365M Arous Elite  |
 |     SSD      |     WestData SN750 500G     |
-|   Graphic    | DataLand Radeon RX5500XT 8G |
+| Graphic Card | DataLand Radeon RX5500XT 8G |
 | Network Card |     FV-T919(BCM94360CD)     |
 
 <img src="./about-this-computer.png" style="zoom:40%;" />
@@ -52,4 +52,32 @@
 ### Airdrop
 
 <img src="./airdrop.png" alt="airdrop" style="zoom:40%;" />
+
+
+
+## EFI Guide
+
+### [Opencore 0.7.2 RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.2)
+
+- > The best bootloader of the hackintosh at present!
+
+
+
+### [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+
+- > The most complete opencore install guide!
+
+
+
+### [黑果小兵的部落阁](https://blog.daliansky.net/)
+
+- > It's a very famous hackintosh tutorial website in china!
+
+
+
+### [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
+
+- > I clean up the `Platforminfo` in the `EFI/OC/config.plist`, so you should generate your own `SMBIOS` info and copy-paste them into `EFI/OC/cofnig.plist`, like this :
+
+<img src="./platforminfo.png" style="zoom:40%;"/>
 
