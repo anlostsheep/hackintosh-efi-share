@@ -69,7 +69,6 @@
 
 - [ ] Istat does't have the GPU RX5500XT temperature
 
-
 ## EFI Guide
 
 ### [Opencore 0.7.2 RELEASE](https://github.com/acidanthera/OpenCorePkg/releases/tag/0.7.2)
