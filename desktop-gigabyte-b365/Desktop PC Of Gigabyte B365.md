@@ -69,7 +69,6 @@
 
 - [ ] Istat does't have the GPU RX5500XT temperature
 
-- [x] 
 
 ## EFI Guide
 
